@@ -13,7 +13,7 @@ This project uses Viper library to read the config files and Environment Variabl
 - Set up environmet variable GMWS_ENV as described above
 - Update the DB connection URI in ```application-{env}.yml```
 - Run ```go mod tidy``` command to get all required dependency 
-- run the server using below command
+- Run the server using below command
 ```
 go run api-server/main.go
 ```
