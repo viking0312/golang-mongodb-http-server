@@ -9,6 +9,15 @@ There are Java-style config files are created at the root of the project with th
 
 This project uses Viper library to read the config files and Environment Variables.
 
+## How to run
+- Set up environmet variable GMWS_ENV as described above
+- Update the DB connection URI in ```application-{env}.yml```
+- Run ```go mod tidy``` command to get all required dependency 
+- run the server using below command
+```
+go run api-server/main.go
+```
+
 ## APIs
 ### `GET /record/movie/{id}`
 This should return entire movie record for the given id from the Database
