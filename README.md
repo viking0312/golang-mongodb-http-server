@@ -94,7 +94,7 @@ This should add the movie data in the database
 }
 ```
 
-### `PUT /record/movie`
+### `PUT /record/movie/{id}`
 This should patch/update the movie data in the database
 #### request body
 ```json
